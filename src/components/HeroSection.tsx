@@ -8,9 +8,11 @@ const HeroSection = () => (
     />
     <div className="relative z-10 max-w-2xl mx-auto px-6 text-center animate-fade-in">
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight tracking-tight mb-8">
-        Lo que duele no desaparece
+        Lo que hoy te duele
         <br />
-        <span className="italic font-light">cuando dejamos de mirarlo.</span>
+        alguna vez
+        <br />
+        te protegió.
       </h1>
       <div className="w-12 h-px bg-foreground/30 mx-auto mb-8" />
       <p className="text-lg md:text-xl font-sans font-light leading-relaxed text-muted-foreground max-w-lg mx-auto">

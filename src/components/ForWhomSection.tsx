@@ -1,5 +1,5 @@
 const items = [
-  "Sentís que reaccionás de maneras que no entendés —y estás cansado/a de repetir los mismos patrones.",
+  "Sentís que reaccionás de maneras que no entendés —y estás cansado/a de repetir los mismos patrones loquitos.",
   "Hay algo que te duele y no sabés exactamente qué es, pero lo sentís en el cuerpo.",
   "Funcionás bien hacia afuera, pero por dentro hay una desconexión que no podés nombrar.",
   "Te cuesta poner límites, decir que no, o simplemente sentir que tenés derecho a ocupar espacio.",

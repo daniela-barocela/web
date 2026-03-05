@@ -6,7 +6,7 @@ const ExperienceSection = () => (
       </h2>
       <div className="space-y-6 text-base md:text-lg font-sans font-light leading-relaxed text-muted-foreground">
         <p>
-          No es un espacio de consejos. No vamos a buscar soluciones rápidas ni
+          En este espacio no intentamos corregirte ni lograr una mejior versión
           a poner parches sobre lo que incomoda.
         </p>
         <p>
