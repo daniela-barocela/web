@@ -1,14 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import ForWhomSection from "@/components/ForWhomSection";
+import AboutSection from "@/components/AboutSection";
+import ModalitySection from "@/components/ModalitySection";
+import ClosingSection from "@/components/ClosingSection";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <main className="min-h-screen">
+    <HeroSection />
+    <ExperienceSection />
+    <ForWhomSection />
+    <AboutSection />
+    <ModalitySection />
+    <ClosingSection />
+    <footer className="py-8 px-6 text-center text-xs text-muted-foreground font-sans tracking-wide">
+      © {new Date().getFullYear()} · Compassionate Inquiry
+    </footer>
+  </main>
+);
 
 export default Index;
