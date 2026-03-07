@@ -9,10 +9,13 @@ const ExperienceSection = () => (
           Un espacio para explorar con compasión todo lo que viene pidiendo ser visto. Todo aquello que dejamos en sombra tiene la potencia de dirigir nuestra vida y de nosotros/as depende iluminar esas zonas para empezar a recobrar nuestra libertad. 
         </p>
         <p>
-        <em> Compassionate Inquirye</em> es un enfoque que avanza suavemente y pidiendo permiso, en un espacio seguro donde priman la sintonía de corazón a corazón, para que puedas desplegar tu atenticidad sin ser juzgado/a, porque sólo podemos transformarnos cuando podemos observarnos sin juicio. 
+          <em className="font-serif text-foreground">Compassionate Inquiry</em> es un enfoque que avanza suavemente y pidiendo permiso, en un espacio seguro donde priman la sintonía de corazón a corazón, para que puedas desplegar tu autenticidad sin ser juzgado/a, porque sólo podemos transformarnos cuando podemos observarnos sin juicio.
         </p>
         <p>
-          <em className="font-serif text-foreground"></em>
+          Aquí no se trata de arreglar ni de cambiar lo que sientes, sino de acogerlo con curiosidad. A medida que vamos dando voz a lo que habita en tu interior —miedos, dolores, creencias—, surge naturalmente un movimiento hacia la integración y la paz.
+        </p>
+        <p>
+          El proceso es orgánico y respeta tu ritmo. Cada sesión es una invitación a profundizar en lo que esté presente para ti en ese momento, con la confianza de que tu sistema sabe hacia dónde ir cuando se siente escuchado y acompañado.
         </p>
       </div>
     </div>
