@@ -6,8 +6,7 @@ const ExperienceSection = () => (
       </h2>
       <div className="space-y-6 text-base md:text-lg font-sans font-light leading-relaxed text-muted-foreground">
         <p>
-          En este espacio no intentamos corregirte ni lograr una mejior versión
-          a poner parches sobre lo que incomoda.
+          Un espacio para explorar con compasión todo lo que viene pidiendo ser visto. Todo aquello que dejamos en sombra tiene la potencia de dirigir nuestra vida y de nosotros/as depende iluminar esas zonas para empezar a recobrar nuestra libertad. 
         </p>
         <p>
           Lo que hacemos es detenernos. Mirar lo que está ahí —lo que llevás
