@@ -9,19 +9,10 @@ const ExperienceSection = () => (
           Un espacio para explorar con compasión todo lo que viene pidiendo ser visto. Todo aquello que dejamos en sombra tiene la potencia de dirigir nuestra vida y de nosotros/as depende iluminar esas zonas para empezar a recobrar nuestra libertad. 
         </p>
         <p>
-          Lo que hacemos es detenernos. Mirar lo que está ahí —lo que llevás
-          cargando, lo que aprendiste a esconder para sobrevivir, lo que tu
-          cuerpo sabe pero tu mente prefiere no nombrar.
+          Compassionate Inquiry es un enfoque que avanza suavemente y pidiendo permiso, en un espacio seguro donde priman la sintonía de corazón a corazón, para que puedas desplegar tu atenticidad sin ser juzgado/a, porque sólo podemos transformarnos cuando podemos observarnos sin juicio. 
         </p>
         <p>
-          <em className="font-serif text-foreground">Compassionate Inquiry</em>{" "}
-          es un enfoque que no esquiva la verdad, pero tampoco la impone.
-          Pregunta con cuidado. Sostiene con firmeza. Nombra lo que necesita ser
-          nombrado.
-        </p>
-        <p>
-          Hay algo profundamente liberador en ser visto sin juicio —y sin
-          complacencia.
+          <em className="font-serif text-foreground"></em>
         </p>
       </div>
     </div>
