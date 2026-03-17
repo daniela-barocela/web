@@ -1,9 +1,9 @@
 const items = [
-  "Si observas que reaccionás de maneras repetitivas,",
-  "Hay algo que te duele y no sabés exactamente qué es, pero lo sentís en el cuerpo.",
-  "Funcionás bien hacia afuera, pero por dentro hay una desconexión que no podés nombrar.",
-  "Te cuesta poner límites, decir que no, o simplemente sentir que tenés derecho a ocupar espacio.",
-  "Ya probaste terapia antes, pero sentís que algo esencial no fue tocado.",
+  "Si deseas llegar al núcleo de tu dolor y buscas encontrar una manera de vivirlo de forma mas plena y libre",
+  "Si hay algo que te duele y no sabés exactamente qué es, pero lo sentís en el cuerpo y deseas indagar en la causa.",
+  "Si Funcionás bien hacia afuera, pero por dentro hay una desconexión que no podés nombrar.",
+  "Si te cuesta poner límites y querés recuperar tu derecho a ocupar espacio y validar tu voz.",
+  "Si ya probaste terapia antes, pero sentís que algo esencial no fue tocado.",
 ];
 
 const ForWhomSection = () => (
@@ -13,7 +13,7 @@ const ForWhomSection = () => (
         Para quién es este espacio
       </h2>
       <p className="text-muted-foreground font-sans font-light mb-12">
-        Para toda persona abierta a mirarse con honestidad y respeto a sí misma
+    
       </p>
       <ul className="space-y-6">
         {items.map((item, i) => (
