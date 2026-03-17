@@ -1,9 +1,10 @@
 const items = [
   "Si deseas llegar al núcleo de tu dolor y buscas una manera de vivirlo de forma mas plena y libre.",
-  "Si hay algo que te incomoda y limita y no sabés exactamente qué es, pero lo sentís dentro tuyo y deseas indagar en la causa.",
+  "Si viviste experiencias que dejaron marcas profundas en tu ser y te gustaría encontrar un modo de integrarlas sin que determinen tu presente.",
   "Si funcionás bien hacia afuera, pero por dentro hay una desconexión que no podés nombrar.",
   "Si te cuesta poner límites y querés recuperar tu derecho a ocupar espacio y validar tu voz.",
   "Si ya probaste terapia antes, pero sentís que algo esencial no fue tocado.",
+  "Si reaccionás de maneras repetitivas y te gustaría encontrar el origen de tu comportamiento.",
 ];
 
 const ForWhomSection = () => (
