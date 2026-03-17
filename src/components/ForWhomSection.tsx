@@ -1,7 +1,7 @@
 const items = [
-  "Si deseas llegar al núcleo de tu dolor y buscas encontrar una manera de vivirlo de forma mas plena y libre",
-  "Si hay algo que te duele y no sabés exactamente qué es, pero lo sentís en el cuerpo y deseas indagar en la causa.",
-  "Si Funcionás bien hacia afuera, pero por dentro hay una desconexión que no podés nombrar.",
+  "Si deseas llegar al núcleo de tu dolor y buscas una manera de vivirlo de forma mas plena y libre.",
+  "Si hay algo que te incomoda y limita y no sabés exactamente qué es, pero lo sentís dentro tuyo y deseas indagar en la causa.",
+  "Si funcionás bien hacia afuera, pero por dentro hay una desconexión que no podés nombrar.",
   "Si te cuesta poner límites y querés recuperar tu derecho a ocupar espacio y validar tu voz.",
   "Si ya probaste terapia antes, pero sentís que algo esencial no fue tocado.",
 ];
