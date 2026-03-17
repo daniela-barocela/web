@@ -1,5 +1,5 @@
 const items = [
-  "Sentís que reaccionás de maneras que no entendés —y estás cansado/a de repetir los mismos patrones loquitos.",
+  "Si observas que reaccionás de maneras repetitivas,",
   "Hay algo que te duele y no sabés exactamente qué es, pero lo sentís en el cuerpo.",
   "Funcionás bien hacia afuera, pero por dentro hay una desconexión que no podés nombrar.",
   "Te cuesta poner límites, decir que no, o simplemente sentir que tenés derecho a ocupar espacio.",
@@ -13,7 +13,7 @@ const ForWhomSection = () => (
         Para quién es este espacio
       </h2>
       <p className="text-muted-foreground font-sans font-light mb-12">
-        No es para todo el mundo. Y está bien que así sea.
+        Para toda persona abierta a mirarse con honestidad y respeto a sí misma
       </p>
       <ul className="space-y-6">
         {items.map((item, i) => (
