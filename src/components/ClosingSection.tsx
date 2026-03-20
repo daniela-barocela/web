@@ -2,9 +2,9 @@ const ClosingSection = () => (
   <section className="py-32 md:py-40 px-6 text-center">
     <div className="max-w-xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-light mb-8 tracking-tight italic">
-        No hace falta estar list@.
+        No hace falta estar list@
         <br />
-        Solo hace falta estar dispuest@.
+        Hace falta estar dispuest@
       </h2>
       <div className="w-12 h-px bg-foreground/30 mx-auto mb-10" />
       <a
