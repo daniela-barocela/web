@@ -13,11 +13,11 @@ const AboutSection = () => (
         </p>
         <p>
           Mi intención como terapeuta es acompañarte a explorar lo que te duele y te limita
-          y mi manera de hacerlo escon honestidad, con respeto, y sin prisa.
+          y mi manera de hacerlo es con honestidad, con respeto, y sin prisa.
         </p>
         <p>
           Creo que cada persona ya sabe, en algún nivel, qué es lo que necesita
-          enfrentar. Mi trabajo es ayudar a que eso pueda ser dicho en voz alta y recibido con amor
+          enfrentar. Mi trabajo es ayudar a que eso pueda ser dicho en voz alta y recibido con amor y curiosidad.
         </p>
       </div>
     </div>
