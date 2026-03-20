@@ -18,7 +18,7 @@ const AboutSection = () => (
 
         <div className="flex-1 space-y-6 text-base md:text-lg font-sans font-light leading-relaxed text-muted-foreground">
           <p>
-            Soy terapeuta formada en{" "}
+            Me llamo Daniela Barocela y soy terapeuta formada en{" "}
             <em className="font-serif text-foreground">Compassionate Inquiry</em>,
             el enfoque creado por Gabor Maté. Mi trabajo parte de una convicción
             simple: sólo la compasión por nuestro proceso puede acercarnos a la sanación; y la misma comienza, como dice el Dr. Maté, cuando dejamos de preguntarnos &quot;¿Qué está mal en mí?&quot; y empezamos a preguntarnos &quot;¿Qué me pasó?&quot;.
