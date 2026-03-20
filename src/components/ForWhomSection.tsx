@@ -5,6 +5,10 @@ const items = [
   "Si te cuesta poner límites y querés recuperar tu derecho a ocupar espacio y validar tu voz.",
   "Si ya probaste terapia antes, pero sentís que algo esencial no fue tocado.",
   "Si reaccionás de maneras repetitivas y te gustaría encontrar el origen de tu comportamiento.",
+  <>
+    Si sentís que habita algún <strong>trauma</strong> adentro tuyo y querés
+    transformar el impacto que tiene en tu vida.
+  </>,
 ];
 
 const ForWhomSection = () => (
