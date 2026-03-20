@@ -9,16 +9,15 @@ const AboutSection = () => (
           Soy terapeuta formada en{" "}
           <em className="font-serif text-foreground">Compassionate Inquiry</em>,
           el enfoque creado por Gabor Maté. Mi trabajo parte de una convicción
-          simple: sólo la compasión por nuestro proceso puede acercarnos a la sanación; y la misma comienza, como dice el Dr. Maté, cuando dejamos de preguntarnos "¿Qué está mal en mí?" y empezamos a preguntarnsos "¿Qué me pasó?". "
+          simple: sólo la compasión por nuestro proceso puede acercarnos a la sanación; y la misma comienza, como dice el Dr. Maté, cuando dejamos de preguntarnos "¿Qué está mal en mí?" y empezamos a preguntarnos "¿Qué me pasó?". "
         </p>
         <p>
-          No soy un terapeuta que te va a decir lo que querés escuchar. Tampoco
-          uno que te empuje hacia donde no estás listo/a para ir. Mi rol es
-          acompañarte a mirar —con honestidad, con respeto, y sin prisa.
+          Mi intención como terapeuta es acompañarte a explorar lo que te duele y te limita
+          y mi manera de hacerlo escon honestidad, con respeto, y sin prisa.
         </p>
         <p>
           Creo que cada persona ya sabe, en algún nivel, qué es lo que necesita
-          enfrentar. Mi trabajo es ayudar a que eso pueda ser dicho en voz alta.
+          enfrentar. Mi trabajo es ayudar a que eso pueda ser dicho en voz alta y recibido con amor
         </p>
       </div>
     </div>
