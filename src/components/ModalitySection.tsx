@@ -15,7 +15,7 @@ const ModalitySection = () => (
         </p>
         <p>
           Si sentís que esto resuena con algo tuyo, podés escribirme para
-          agendar una primera conversación. Sin compromiso, sin presión.
+          agendar una primera conversación. 
         </p>
       </div>
     </div>
