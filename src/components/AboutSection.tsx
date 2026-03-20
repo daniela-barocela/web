@@ -6,10 +6,10 @@ const AboutSection = () => (
       </h2>
       <div className="space-y-6 text-base md:text-lg font-sans font-light leading-relaxed text-muted-foreground">
         <p>
-          Soy terapeuta formado en{" "}
+          Soy terapeuta formada en{" "}
           <em className="font-serif text-foreground">Compassionate Inquiry</em>,
           el enfoque creado por Gabor Maté. Mi trabajo parte de una convicción
-          simple: no podemos sanar lo que no estamos dispuestos a ver.
+          simple: sólo la compasión por nuestro proceso puede acercarnos a la sanación; y la misma comienza, como dice el Dr. Maté, cuando dejamos de preguntarnos "¿Qué está mal en mí?" y empezamos a preguntarnsos "¿Qué me pasó?". "
         </p>
         <p>
           No soy un terapeuta que te va a decir lo que querés escuchar. Tampoco
