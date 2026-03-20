@@ -30,6 +30,9 @@ const AboutSection = () => (
             Creo que cada persona ya sabe, en algún nivel, qué es lo que necesita
             enfrentar. Mi trabajo es ayudar a que eso pueda ser dicho en voz alta y recibido con amor y curiosidad.
           </p>
+          <p>
+            También soy docente, terapeuta floral y terapeuta en Medicina tradicional china.
+          </p>
         </div>
       </div>
     </div>
