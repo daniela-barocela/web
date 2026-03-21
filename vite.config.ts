@@ -4,7 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-// GitHub Pages (project site): set VITE_BASE_PATH=/nombre-repo/ in CI. User site *.github.io uses /.
+// GitHub Pages (proyecto en /nombre-repo/): en CI define VITE_BASE_PATH=/nombre-repo/
+// (rutas absolutas desde la raíz del dominio). No uses base "./": sin "/" al final en la URL
+// el navegador resuelve mal ./assets/… y el JS no carga (título sí, pantalla en blanco).
 const base = process.env.VITE_BASE_PATH ?? "/";
 
 export default defineConfig(({ mode }) => ({
