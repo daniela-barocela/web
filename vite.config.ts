@@ -4,7 +4,11 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
+// GitHub Pages (project site): set VITE_BASE_PATH=/nombre-repo/ in CI. User site *.github.io uses /.
+const base = process.env.VITE_BASE_PATH ?? "/";
+
 export default defineConfig(({ mode }) => ({
+  base,
   server: {
     host: "::",
     port: 8080,
