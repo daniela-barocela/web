@@ -8,7 +8,7 @@ const ClosingSection = () => (
       </h2>
       <div className="w-12 h-px bg-foreground/30 mx-auto mb-10" />
       <a
-        href="https://wa.me/5491168344165?text=Bienvenido%2Fa%2C%20comentame%20en%20qu%C3%A9%20puedo%20ayudarte%3F"
+        href="https://wa.me/5491168344165"
         className="inline-block font-sans text-sm tracking-widest uppercase border border-foreground/30 px-8 py-4 transition-colors duration-300 hover:bg-foreground hover:text-background"
       >
         Escribime
