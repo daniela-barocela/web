@@ -4,7 +4,7 @@ import path from "path";
 import { pathToFileURL } from "node:url";
 import { componentTagger } from "lovable-tagger";
 
-/** Genera dist/og-image.png (hero + textos como en la landing) para Open Graph / WhatsApp. */
+/** Genera dist/og-preview.png (hero + textos) para Open Graph / WhatsApp. */
 function emitOgImage(): Plugin {
   return {
     name: "emit-og-image",
@@ -13,7 +13,7 @@ function emitOgImage(): Plugin {
         pathToFileURL(path.resolve(__dirname, "scripts/generate-og-image.mjs"))
           .href
       );
-      await mod.generateOgImage(path.resolve(__dirname, "dist/og-image.png"));
+      await mod.generateOgImage(path.resolve(__dirname, "dist/og-preview.png"));
     },
   };
 }
@@ -28,7 +28,13 @@ function injectOgMeta(opts: { base: string; siteUrl: string }): Plugin {
       const pathPrefix = base === "/" ? "" : base.replace(/\/$/, "");
       const root = siteUrl.replace(/\/$/, "");
       const canonical = `${root}${pathPrefix}/`;
-      const imageUrl = `${root}${pathPrefix}/og-image.png`;
+      const cacheBust =
+        process.env.VITE_OG_CACHE_BUST?.slice(0, 7) ||
+        env.VITE_OG_CACHE_BUST?.slice(0, 7) ||
+        "";
+      const imageUrl = cacheBust
+        ? `${root}${pathPrefix}/og-preview.png?v=${cacheBust}`
+        : `${root}${pathPrefix}/og-preview.png`;
       const block = `
     <meta property="og:url" content="${canonical}" />
     <meta property="og:image" content="${imageUrl}" />

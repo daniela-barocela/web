@@ -26,9 +26,13 @@ jobs:
       - run: npm ci
       - name: Build
         env:
+          NPM_CONFIG_PRODUCTION: "false"
           VITE_BASE_PATH: ${{ github.event.repository.name == format('{0}.github.io', github.repository_owner) && '/' || format('/{0}/', github.event.repository.name) }}
           VITE_SITE_URL: https://${{ github.repository_owner }}.github.io
+          VITE_OG_CACHE_BUST: ${{ github.sha }}
         run: npm run build
+      - name: Verify social preview image
+        run: test -f dist/og-preview.png && test "$(stat -c%s dist/og-preview.png)" -ge 150000
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
