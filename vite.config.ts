@@ -1,17 +1,19 @@
-import fs from "node:fs";
 import { defineConfig, loadEnv, type Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
+import { pathToFileURL } from "node:url";
 import { componentTagger } from "lovable-tagger";
 
-/** Copia el hero a dist/og-image.jpg en cada build (debe existir en el repo; WhatsApp pide URL absoluta al archivo). */
+/** Genera dist/og-image.png (hero + textos como en la landing) para Open Graph / WhatsApp. */
 function emitOgImage(): Plugin {
-  const src = path.resolve(__dirname, "src/assets/hero-bg.jpg");
-  const dest = path.resolve(__dirname, "dist/og-image.jpg");
   return {
     name: "emit-og-image",
-    closeBundle() {
-      fs.copyFileSync(src, dest);
+    async closeBundle() {
+      const mod = await import(
+        pathToFileURL(path.resolve(__dirname, "scripts/generate-og-image.mjs"))
+          .href
+      );
+      await mod.generateOgImage(path.resolve(__dirname, "dist/og-image.png"));
     },
   };
 }
@@ -26,14 +28,14 @@ function injectOgMeta(opts: { base: string; siteUrl: string }): Plugin {
       const pathPrefix = base === "/" ? "" : base.replace(/\/$/, "");
       const root = siteUrl.replace(/\/$/, "");
       const canonical = `${root}${pathPrefix}/`;
-      const imageUrl = `${root}${pathPrefix}/og-image.jpg`;
+      const imageUrl = `${root}${pathPrefix}/og-image.png`;
       const block = `
     <meta property="og:url" content="${canonical}" />
     <meta property="og:image" content="${imageUrl}" />
     <meta property="og:image:secure_url" content="${imageUrl}" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1920" />
-    <meta property="og:image:height" content="1080" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Compassionate Inquiry · Acompañamiento terapéutico" />
     <meta name="twitter:image" content="${imageUrl}" />`;
       return html.replace("</head>", `${block}\n  </head>`);
