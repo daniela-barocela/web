@@ -1,4 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
+import CaminoAdentroMark from "@/components/CaminoAdentroMark";
 
 const HeroSection = () => (
   <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
@@ -14,6 +15,10 @@ const HeroSection = () => (
     <div
       className="pointer-events-none absolute inset-x-0 top-0 z-[1] h-[55%] bg-[radial-gradient(ellipse_95%_65%_at_50%_-5%,hsl(268_38%_88%/0.14),transparent_58%)]"
       aria-hidden
+    />
+    <CaminoAdentroMark
+      variant="hero"
+      className="absolute left-0 top-0 z-[2] pl-3 pt-0.5 md:pl-4 md:pt-1.5"
     />
     <div className="relative z-10 max-w-2xl mx-auto px-6 text-center animate-fade-in">
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight tracking-tight mb-8">
